@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VANIUSHA'S SCHEDULE</title>
+    <!--MATERIALIZE CSS STYLE REF-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!--Materialize icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps|Grand+Hotel|Just+Another+Hand|Pacifico" rel="stylesheet">
+    <!-- Style css link ref-->
+    <link href="../css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--Here begins the header with two displays: 1. login 2. wall-->
+    <header>
+        <!--Here begins the login-->
+        <div id="login" class="target-log">
+            <div class="col s12 m7">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../assets/original.gif">
+                        <span class="card-title">Welcome</span>
+                    </div>
+                    <div class="card-content">
+                        <a id="logout" class="waves-effect grey darken-4 btn-large">
+                            <i class="material-icons left">perm_identity</i>Login with Facebook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--If the login was succesful, you could access to the Wall-->
+        <div id="access">
+            <!--Here begins the slide profile data-->
+            <ul id="slide-out" class="sidenav">
+                <li>
+                    <div>
+                        <img class="background" src="../assets/grayWolf.gif">
+                    </div>
+                    <div class="user-view">
+                        <a href="#user" id="iconuser">
+                        </a>
+                        <a href="#name" id="name" class="black-text name">
+                            <span>VANIUSHA</span>
+                        </a>
+                        <a href="#email" id="email">
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col s12 m12">
+                            <div class="card aboutme-card">
+                                <div class="card-content  red-accent-4-text aboutme-card">
+                                    <span class="card-title">To Do:</span>
+                                    <p id="perfil"> - cards</p>
+                                </div>
+                                <div class="card-action">
+                                    <a id="btn-edit" href="#">
+                                        <i class="material-icons">edit</i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#!">
+                        <i class="material-icons red-text text-accent-4">book
+                        </i>My Agenda</a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <i class="material-icons red-text text-accent-4">developer_board</i>My Wall</a>
+                </li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+                <li>
+                    <a id="logout" class="waves-effect grey darken-4 btn-small">
+                        <i class="material-icons right white-text text-accent-4">exit_to_app</i>Log Out</a>
+                    <div class="divider"></div>
+                </li>
+            </ul>
+            <!-- Here begins the Nav Bar fixed, non collapsible-->
+            <div class="navbar-fixed">
+                <nav>
+                    <div class="nav-wrapper grey darken-4 ">
+                        <a href="#!" class="brand-logo">Schedule</a>
+                        <ul>
+                            <li>
+                                <a href="#!" data-target="slide-out" class="sidenav-trigger center-align">
+                                    <i class="material-icons icon-pad">person_pin</i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--Here is the footer-->
+    <footer>
+        <ul>
+            <li class="footer">
+                Powered By:
+                <mark>Laboratoria</mark>
+                <em>Código que transforma.</em>
+
+            </li>
+        </ul>
+    </footer>
+    <!--Materialize min js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <!--Scripts JS-->
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
