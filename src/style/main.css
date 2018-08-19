@@ -1,0 +1,22 @@
+.giphy-gif {
+  border-radius: 50%;
+  width: 90%;
+  height: 85%;
+}
+.title {
+    font-family: 'Pacifico', cursive;
+    font-size: 600%;
+    text-align: center;
+}
+.footer {
+    font-family: 'Just Another Hand', cursive;
+    color: black;
+    text-align: center;
+    font-size: 200%
+}
+
+/*
+font-family: 'Pacifico', cursive;
+font-family: 'Just Another Hand', cursive;
+font-family: 'Grand Hotel', cursive;
+font-family: 'Delius Swash Caps', cursive;
