@@ -10,9 +10,10 @@ const access = document.getElementById('access');
 
 access.style.display = 'none';
 
-//logIn.style.display = 'none';
-
+//
 document.getElementById('facebook-log').addEventListener('click', event => {
   event.preventDefault();
   loginFB();
+  logIn.style.display = 'none';
+  access.style.display = 'block';
 });

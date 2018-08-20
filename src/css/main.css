@@ -33,6 +33,15 @@
 .target-log {
     padding: 10%;
 }
+.titles {
+    font-family:'Just Another Hand', cursive;
+    font-size: 140%;
+    text-align: center;
+}
+.square {
+    height: 200%;
+    width: 200%
+}
 /*
 font-family: 'Pacifico', cursive;
 font-family: 'Just Another Hand', cursive;

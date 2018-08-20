@@ -24,7 +24,7 @@ window.loginFB = () => {
       let token = result.credential.accessToken;
       // The signed-in user info.
       let user = result.user;
-      // ...
+      // ...and
     })
     .catch(function(error) {
       // Handle Errors here.
